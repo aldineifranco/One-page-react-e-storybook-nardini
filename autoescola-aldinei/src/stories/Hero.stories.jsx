@@ -10,21 +10,17 @@ export default {
 };
 
 export const usage = () => (
-  <Hero title="Ganhe sua liberdade para ir e vir" image={BgHighwayImage}>
+  <Hero image={BgHighwayImage}>
+    <h1>Ganhe sua liberdade para ir e vir</h1>
     <p>A auto escola lider em aprovação.</p>
   </Hero>
 );
 
 export const widhList = () => (
-  <Hero
-    title={
-      <span>
-        "Ganhe sua <strong>liberdade</strong>
-        <br /> para ir e vir"
-      </span>
-    }
-    image={BgCarImage}
-  >
+  <Hero image={BgCarImage}>
+    <h1>
+      Ganhe sua <strong>liberdade</strong> para ir e vir
+    </h1>
     <ul>
       <li>is simply dummy text of the printing and typesetting industry... </li>
       <li>is simply dummy text of the printing and typesetting industry. </li>
