@@ -16,7 +16,15 @@ export const usage = () => (
 );
 
 export const widhList = () => (
-  <Hero title="Ganhe sua liberdade para ir e vir" image={BgCarImage}>
+  <Hero
+    title={
+      <span>
+        "Ganhe sua <strong>liberdade</strong>
+        <br /> para ir e vir"
+      </span>
+    }
+    image={BgCarImage}
+  >
     <ul>
       <li>is simply dummy text of the printing and typesetting industry... </li>
       <li>is simply dummy text of the printing and typesetting industry. </li>
